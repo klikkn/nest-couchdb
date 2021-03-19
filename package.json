@@ -1,9 +1,8 @@
 {
-  "name": "@scalio/nest-couchdb",
+  "name": "@klikkn/nest-couchdb",
   "description": "CouchDB module for Nest framework",
   "version": "0.1.0",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "prebuild": "yarn build:clean",
     "build:clean": "cd dist && rm -rf `ls | grep -v \"LICENSE\\|package.json\\|README.md\"`",
@@ -53,5 +52,18 @@
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.5.3",
     "validate-commit-msg": "2.14.0"
-  }
+  },
+  "main": "jest.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klikkn/nest-couchdb.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/klikkn/nest-couchdb/issues"
+  },
+  "homepage": "https://github.com/klikkn/nest-couchdb#readme"
 }
